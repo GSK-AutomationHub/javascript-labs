@@ -66,3 +66,16 @@ fruits.forEach((fruit) =>{
 numbers.forEach((num) =>{
     console.log(num*num)
 })
+
+// Array to String
+let fruits = ['mango', 'apple', 'guava', 'orange']
+
+fruits.toString() // 'mango', 'apple', 'guava', 'orange'
+
+fruits.join('-') // 'mango' - 'apple' - 'guava' - 'orange'
+
+fruitString = fruits.toString()
+console.log(fruitString)
+
+fruitArray = fruitString.split(',')
+console.log(fruitArray)

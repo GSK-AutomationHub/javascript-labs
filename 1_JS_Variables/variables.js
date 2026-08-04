@@ -16,3 +16,47 @@
        - must need to initialize during declartion
 
 */ 
+
+
+function varExample1(){
+      var x = 1
+      console.log(x) //1
+
+      if(true){
+      x = 2 // x will get overriden by 2 as var has global scope
+      console.log(x) //2
+      x =3
+      }
+      console.log(x) //3
+}
+
+//varExample1()
+
+
+function varExample2(){
+      let x = 1
+      console.log(x) //1
+
+      if(true){
+      let x = 2 // x will get overriden by 2 as var has global scope
+      console.log(x) //2
+      x =3
+      }
+      console.log(x) //1
+}
+
+//varExample2()
+
+
+function varExample3(){
+      const x = 1
+      console.log(x) //1
+
+      if(true){
+      x = 2 // error
+      console.log(x) //2
+      }
+      console.log(x) 
+}
+
+varExample3()
