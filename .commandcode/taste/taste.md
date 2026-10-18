@@ -1,4 +1,1 @@
-# Taste (Continuously Learned by [CommandCode][cmd])
-
-[cmd]: https://commandcode.ai/
-
+- Prefers completing the full local git workflow (stage and commit changes locally) and then pushing to the remote `main` branch. Confidence: 0.7
