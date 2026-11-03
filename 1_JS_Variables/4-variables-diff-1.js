@@ -18,7 +18,7 @@
 */ 
 
 
-function varExample1(){
+function varExample(){
       var x = 1
       console.log(x) //1
 
@@ -30,10 +30,10 @@ function varExample1(){
       console.log(x) //3
 }
 
-//varExample1()
+//varExample()
 
 
-function varExample2(){
+function letExample2(){
       let x = 1
       console.log(x) //1
 
@@ -45,10 +45,10 @@ function varExample2(){
       console.log(x) //1
 }
 
-//varExample2()
+//letExample2()
 
 
-function varExample3(){
+function constExample(){
       const x = 1
       console.log(x) //1
 
@@ -59,4 +59,4 @@ function varExample3(){
       console.log(x) 
 }
 
-varExample3()
+constExample()
