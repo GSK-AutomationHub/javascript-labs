@@ -16,6 +16,11 @@ for( let i=0; i<array.length; i++){
     console.log(array[i]);
 }
 console.log("------");
+// for -- in loop
+for(const e in array){
+    console.log(e);
+}
+console.log("------");
 
 //while: 1 to 10:
 let p = 1;

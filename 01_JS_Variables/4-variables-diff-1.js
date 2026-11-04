@@ -17,7 +17,7 @@
 
 */ 
 
-
+//varExample()
 function varExample(){
       var x = 1
       console.log(x) //1
@@ -30,24 +30,20 @@ function varExample(){
       console.log(x) //3
 }
 
-//varExample()
-
-
+//letExample()
 function letExample2(){
       let x = 1
       console.log(x) //1
 
       if(true){
-      let x = 2 // x will get overriden by 2 as var has global scope
+      let x = 2 // x will not get overriden by 2 as let has block scope
       console.log(x) //2
       x =3
       }
       console.log(x) //1
 }
 
-//letExample2()
-
-
+//constExample()
 function constExample(){
       const x = 1
       console.log(x) //1

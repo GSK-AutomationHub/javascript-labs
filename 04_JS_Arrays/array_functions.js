@@ -30,10 +30,10 @@ console.log(color)
 
 
 //splice
-fruits = ["manago","banana","pomogranet","kiwi", "berry"]
-console.log(fruits)
-fruits.splice(1,2,"chiku","guava")
-console.log(fruits)
+let indianFruits = ["manago","banana","pomogranet","kiwi", "berry"]
+console.log(indianFruits)
+indianFruits.splice(1,2,"chiku","guava")
+console.log(indianFruits)
 
 
 // slice  
@@ -43,7 +43,7 @@ console.log(x)
 
 
 // concat 
-mixed = numbers.concat(fruits)
+mixed = numbers.concat(indianFruits)
 console.log(mixed)
 
 
@@ -54,12 +54,12 @@ console.log(numbers.indexOf(num,numbers.indexOf(num)+1))
 
 
 // includes  
-console.log(fruits)
-console.log(fruits.includes("cherry"))
+console.log(indianFruits)
+console.log(indianFruits.includes("cherry"))
 
 
 //forEach
-fruits.forEach((fruit) =>{
+indianFruits.forEach((fruit) =>{
     console.log(fruit)
 })
 
