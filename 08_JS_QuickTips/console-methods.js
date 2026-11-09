@@ -34,3 +34,4 @@ console.timeEnd("print 1 to N values")
 
 console.log("%c I love JavaScript Coding!!!",
     "color:red; background-color:lightblue; border:solid");
+

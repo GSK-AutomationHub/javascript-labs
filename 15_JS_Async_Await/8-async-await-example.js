@@ -1,7 +1,7 @@
 
 const fetchUserInfo = async () => {
     try {
-        const response = await fetch('https://reqres.in/naveen/users?page=2');//async step
+        const response = await fetch('https://reqres.in/api/users?page=2');//async step
 
         if (!response.ok) {
             throw new Error('user data not found...');
